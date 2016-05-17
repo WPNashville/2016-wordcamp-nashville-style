@@ -1,0 +1,565 @@
+@import  "http://fonts.googleapis.com/css?family=Fjalla+One|Raleway:400,700";
+
+.clear {
+	display: block;
+	clear: both;
+	float: none;
+}
+
+/*Main Div's*/
+html {
+	background: url('http://nashville.wordcamp.org/2014/files/2014/03/bg-pattern.png') left top repeat;
+}
+
+body {
+	color: #797979;
+	font-size: 1.1rem;
+	background: url('http://nashville.wordcamp.org/2014/files/2014/03/2014-wcn-bg-header.jpg') center top no-repeat transparent;
+}
+
+body .site {
+	margin-top: 0;
+	padding: 0;
+	background: transparent;
+	box-shadow: none;
+	overflow: visible;
+}
+
+body,
+body.custom-font-enabled {
+	font-family: 'Raleway', 'Open Sans', sans-serif;
+}
+
+a, .widget-area .widget a, .widget-area .widget a:visited, a:visited, .entry-content a:visited, .comment-content a:visited {
+	text-decoration: none;
+	color: #d54e21;
+}
+
+a:hover, .widget-area .widget a:hover {
+	color: #C54C23;
+}
+
+a.button {
+	background: #be461d;
+	color: white !important;
+	padding: 0.3em 1em;
+	display: inline-block;
+}
+
+a.button:hover {
+	background: #973817;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+	color: #2a2a2a;
+	font-weight: 400;
+	text-decoration: uppercase;
+	margin: 0 0 15px;
+	line-height: 1.714285714;
+}
+
+h1, .h1, .entry-header .entry-title {
+	font-size: 21px;
+	font-size: 2.45rem;
+	line-height: 1.3;
+}
+
+h2, .h2 {
+	font-size: 18px;
+	font-size: 1.285714286rem;
+	line-height: 1.6;
+}
+
+h3, .h3, .archive-title, .page-title, .widget-title, .entry-content th, .comment-content th {
+	font-size: 16px;
+	font-size: 1.5rem;
+	line-height: 1.846153846;
+}
+
+h4, .h4 {
+	font-size: 14px;
+	font-size: 1rem;
+	line-height: 1.846153846;
+}
+
+h5, .h5 {
+	font-size: 13px;
+	font-size: .928571429rem;
+	line-height: 1.846153846;
+}
+
+h6, .h6 {
+	font-size: 12px;
+	font-size: .857142857rem;
+	line-height: 1.846153846;
+}
+
+/*Nav*/
+.main-navigation {
+	font-family: 'Raleway', 'Open Sans', sans-serif;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 13px 0;
+	width: 100%;
+	background: #464646;
+	color: #fefefe;
+}
+
+.admin-bar .main-navigation {
+	top: 28px;
+}
+
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+	border: none;
+}
+
+.main-navigation li {
+	margin: 0 .9rem;
+}
+
+.main-navigation li a {
+	font-size: 1rem;
+	line-height: 2.5rem;
+	color: #eee;
+}
+
+.main-navigation li a:hover {
+	color: #fff;
+}
+
+.main-navigation ul li:first-child {
+	padding-left: .9rem;
+}
+
+.main-navigation ul li li:first-child {
+	padding: 0;
+}
+
+.main-navigation li ul li a,
+.main-navigation li ul li a:hover {
+	color: #2a2a2a;
+}
+
+.main-navigation li.link-register {
+	position: absolute;
+	top: 13px;
+	right: 0;
+}
+
+.main-navigation li.link-register a {
+	background: #d54e21;
+	padding: 0 16px;
+}
+
+.main-navigation .current-menu-item > a, 
+.main-navigation .current-menu-ancestor > a, 
+.main-navigation .current_page_item > a, 
+.main-navigation .current_page_ancestor > a {
+	font-weight: 400;
+	color: #fff;
+}
+
+/*Header*/
+.site-header {
+	padding: 100px 0 0;
+}
+
+.site-header h1 {
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.site-header h1 a {
+	display: block;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.site-header h1 a:hover {
+	color: #fff;
+}
+
+.site-header h2 {
+	color: #fff;
+	text-align: center;
+}
+
+@media screen and (min-width: 750px) {
+	.site-header {
+		padding: 100px 0 40px;
+	}
+	
+	.site-header h1 a {
+		text-indent: -9999px;
+		width: 524px;
+		height: 289px;
+		background: url('http://nashville.wordcamp.org/2015/files/2015/03/wordcamp-2015-logo.png') center top no-repeat;
+		background-size: 100%;
+	}
+	
+	.site-header h2 {
+		display: none;
+	}
+}
+
+/*Content Blocks*/
+#main {
+	overflow: visible;
+}
+
+#primary {
+	background: #fff;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.50);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.50);
+}
+
+#primary #content {
+	padding: 20px 16px;
+}
+
+#secondary aside {
+	background: #fff;
+	padding: 14px 14px 10px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.50);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.50);
+}
+
+@media screen and (min-width: 600px) {
+	.site-content {
+		width: 62.104%;
+	}
+	
+	.widget-area {
+		width: 34.042%;
+	}
+}
+
+.widget-area .widget {
+	margin-bottom: 3rem;
+}
+
+.widget-area .widget-title,
+.widget-area .widget-title a {
+	color: #d54e21;
+	text-decoration: none;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.widget-area .widget-title a:hover {
+	color: #333;
+}
+
+/*Posts*/
+/* article header .entry-title { padding-left:85px; background:url('http://2013.nashville.wordcamp.org/files/2013/02/chevron.png') left center no-repeat; } */
+.site-content article {
+	border: none;
+	margin-bottom: 25px;
+}
+
+.entry-header .comments-link {
+	margin-top: 1.1rem;
+}
+
+.entry-title {
+	margin-top: 0;
+	color: #d54e21;
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+}
+
+.leave-reply {
+	color: #d54e21;
+	text-decoration: underline;
+}
+
+.entry-content img.no-shadow, .comment-content img.no-shadow, .widget img.no-shadow, .author-avatar img.no-shadow {
+	box-shadow: none;
+}
+
+/*Tweets*/
+.tweets li {
+	margin-bottom: 10px;
+}
+
+/*Widgets*/
+.widget img {
+	box-shadow: none;
+}
+
+.wcorg-mailchimp {
+    position:relative;
+}
+.widget_wcorg_mailchimp_wiget .wcorg-mailchimp label.wcorg-mailchimp-name,
+.widget_wcorg_mailchimp_wiget .wcorg-mailchimp label.wcorg-mailchimp-email {
+    position: absolute;
+    top:0;
+}
+
+.widget_wcorg_mailchimp_wiget .wcorg-mailchimp input#wcorg-mailchimp-name {
+    margin-top:15px;
+    float:left;
+}
+
+.widget_wcorg_mailchimp_wiget .wcorg-mailchimp label.wcorg-mailchimp-email {
+    left: 50%
+}
+
+.widget_wcorg_mailchimp_wiget .wcorg-mailchimp input#wcorg-mailchimp-email {
+    float:left;
+    margin-left: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.wcb_widget_sponsors .sponsor-logo img {
+	width: 300px;
+}
+
+.wcb_widget_sponsors .sponsor-level.silver .sponsor-logo img {
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.sponsor-logo {
+	text-align:center;
+}
+
+.sponsor-level.community .sponsor-logo {
+	display:inline-block;
+	margin: 0 15px 15px;
+}
+
+.wcb_widget_sponsors .sponsor-level.community .sponsor-logo img {
+	max-width: 75px;
+	max-height: 75px;
+}
+
+/*Speakers*/
+.wcorg-session:nth-child(2n), .wcorg-speaker:nth-child(2n) {
+	display: table-cell;
+	width: 45%;
+}
+
+.wcorg-session:nth-child(2n+1), .wcorg-speaker:nth-child(2n+1) {
+	clear: left;
+	display: table-cell;
+	float: left;
+	margin-right: 5%;
+	width: 45%;
+}
+
+.wcorg-speaker h2 {
+	font-size: 1.986rem;
+	color: #d54e21;
+}
+
+.avatar {
+	display: block;
+	float: left;
+	margin-right: 15px;
+	padding: 5px;
+	background: #fff;
+}
+
+/*Sponsors*/
+.wcorg-sponsors h2 {
+	font-size: 2.286rem;
+	border-bottom: solid 1px #EAEAEA;
+}
+
+.wcorg-sponsor h3 {
+	margin-bottom: 0;
+	font-size: 1.44286rem;
+}
+
+.wcorg-sponsor .wcorg-sponsor-description img {
+	float: right;
+	margin: 0 7em 2em 5%;
+	max-width: 40%;
+	box-shadow: none;
+}
+
+.wcorg-sponsor .wcorg-sponsor-description p {
+	max-width: 55%;
+}
+
+/* Tickets */
+.tix_tickets_table td {
+	font-size: 14px;
+}
+
+body.admin-bar #tix {
+	padding-top: 0;
+}
+
+/*Schedule*/
+.schedule {
+}
+
+.schedule td,
+.schedule th {
+	padding: 6px 5px 20px 15px;
+}
+
+.schedule thead th {
+	padding-bottom: 6px;
+}
+
+.schedule td {
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.schedule .time {
+	width: 50px;
+	background: #fafafa;
+	border-top: 1px solid #EDEDED;
+}
+
+.schedule thead .time {
+	border-top-color: transparent;
+	background: transparent;
+}
+
+.social-time th,
+.social-time td,
+.social-time .time {
+	background: #f5f5f5;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/*Sponsors*/
+aside .sponsor-logo {
+	margin-bottom: 15px;
+}
+
+.single-wcb_sponsor .entry-header .attachment-post-thumbnail {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.single-wcb_sponsor .entry-title {
+	background: none;
+	padding-left: 0;
+	color: #000;
+}
+
+.single-wcb_sponsor .entry-meta,
+.single-wcb_sponsor .nav-single {
+	display: none;
+}
+
+/*Planning Group*/
+.avatar-grid .grid-item {
+	display: block;
+	float: left;
+	margin: 0 1% 10px;
+	width: 22%;
+	min-height: 200px;
+}
+
+.avatar-grid .grid-item .avatar {
+	float: none;
+	display: block;
+}
+
+.avatar-grid .grid-item .h3 {
+	padding-top: 10px;
+	line-height: 1.2em;
+}
+
+.planning-group .grid-item {
+	float: none;
+	width: 90%;
+	margin-bottom: 15px;
+	min-height: auto;
+}
+
+.planning-group .grid-item .avatar {
+	float: left;
+	display: block;
+	margin-right: 10px;
+}
+
+.planning-group .grid-item-wrap {
+	padding-left: 130px;
+}
+
+.planning-group .grid-item-wrap p {
+	margin-bottom: 7px;
+}
+
+td.wcpt-time {
+	width: 75px;
+}
+
+.wcpt-session-speakers {
+	padding-left: .5em;
+}
+
+.wcpt-session-speakers:before {
+	content: "- ";
+}
+
+.wcpt-session-speakers a {
+	color: #636363;
+	text-decoration: underline;
+}
+
+.wcpt-session-speakers a:visited {
+	color: #636363;
+}
+
+.wcorg-session {
+	border-bottom: thin solid #BDBDBD;
+	padding-bottom: 1.714285714rem;
+}
+
+.wcorg-session h2 {
+	margin-bottom: 0;
+}
+
+.wcorg-session .wcpt-session-meta {
+	margin-bottom: .5rem;
+}
+
+.wcorg-session p:last-child {
+	margin-bottom: 0;
+}
+
+.wcpt-schedule .wcpt-session-title {
+	display: block;
+	line-height: 18px;
+}
+
+.wcpt-schedule .wcpt-col-track {
+	width: 200px;
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		background-size: auto 235px;
+	}
+	
+	.wcorg-sessions .wcorg-session {
+		width: 100%;
+		display: inline-block;
+	}
+	
+	.wcorg-sessions .wcorg-session:after {
+		visibility: hidden;
+		display: block;
+		content: "";
+		clear: both;
+		height: 0;
+	}
+}
+
+@media screen and ( max-width: 700px ) {
+	td.wcpt-time {
+		width: auto;
+	}
+}
