@@ -16,6 +16,12 @@ body.custom-background, body {
 .entry-footer {
 	background-color: rgba(209,176,27,.6);
 }
+.sticky-post {
+	background-color: #211C07;
+	font-family: "unit-gothic-719";
+	font-weight: 200;
+	letter-spacing: 0.1em;
+}
 .site-footer {
 	background-color: #262335;
 }
@@ -31,12 +37,16 @@ h1, h2, h3, h4, h5, h6 {
 	color: #262335;
 }
 .entry-title {
+	color: #211C07;
 	font-family: "hwt-american-solid";
 	font-weight: 200;
 }
 .widget-title {
 	font-family: "hwt-american-solid";
 	color: #256E12;
+}
+.entry-content ul {
+	margin-left: 2rem;
 }
 /* Links */
 a {
@@ -54,6 +64,10 @@ a:hover, a:focus {
 	font-size: 150%;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
+}
+.main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a {
+	font-weight: 200;
+	color: #256E12;
 }
 .site-info a {
 	color: #ebdfc7;
