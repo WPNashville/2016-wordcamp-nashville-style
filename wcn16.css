@@ -27,7 +27,12 @@ body.custom-background, body {
 }
 @media screen and (min-width: 59.6875em) {
 	body::before {
+		background-color: transparent;
+	}
+	.sidebar {
+		background-color: #EBDFC7;
 		border-right: 12px solid #262335;
+		border-left: 1px solid #D3C9B3;
 	}
 }
 /* Typography */
