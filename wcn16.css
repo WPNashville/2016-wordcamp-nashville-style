@@ -25,6 +25,14 @@ body.custom-background, body {
 .site-footer {
 	background-color: #262335;
 }
+.page-header {
+	background-color: #211c07;
+}
+@media screen and (min-width: 38.75em) {
+	.page-header {
+		border-left: 0 solid #FFF;
+	}
+}
 @media screen and (min-width: 59.6875em) {
 	body::before {
 		background-color: transparent;
@@ -50,6 +58,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "hwt-american-solid";
 	color: #256E12;
 }
+.comments-title, .comment-reply-title, .author-heading, .post-navigation .post-title, .page-title {
+	font-family: "hwt-american-solid";
+	font-weight: 200;
+}
+.page-title { color: #ebdfc7; }
 .entry-content ul {
 	margin-left: 2rem;
 }
