@@ -110,3 +110,17 @@ input[type="submit"]:focus {
 	background-color: #d63750;
 	outline: 0;
 }
+
+/**
+ * Sponsor pages
+ */
+.type-wcb_sponsor > .post-thumbnail,
+.type-wcb_sponsor .entry-header,
+.type-wcb_sponsor .author-info {
+	display: none;
+}
+
+.type-wcb_sponsor .post-thumbnail img {
+	display: inline-block;
+	margin-top: 2em;
+}
