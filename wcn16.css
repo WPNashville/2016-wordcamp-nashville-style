@@ -129,3 +129,27 @@ input[type="submit"]:focus {
 .type-wcb_sponsor .post-thumbnail img {
 	display: inline-block;
 }
+
+/**
+ * The Sponsor page
+ */
+.wcorg-sponsor-description > img, .wcorg-sponsor > h3 {
+    display: none;
+}
+
+.wcorg-sponsor-description .post-thumbnail {
+    margin-bottom: 0 !important
+}
+
+.wcorg-sponsor-description .post-thumbnail a {
+    border-bottom: none;
+}
+
+.wcorg-sponsor-description .post-thumbnail img {
+    display:inline-block;
+}
+
+.wcorg-sponsor-description h1.entry-title {
+    margin-top: 1em;
+    font-size: 1.25em
+}
