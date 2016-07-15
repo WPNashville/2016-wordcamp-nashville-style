@@ -115,7 +115,7 @@ input[type="submit"]:focus {
  * Sponsor pages
  */
 .type-wcb_sponsor > .post-thumbnail,
-.type-wcb_sponsor .entry-header,
+.type-wcb_sponsor > .entry-header,
 .type-wcb_sponsor .author-info {
 	display: none;
 }
