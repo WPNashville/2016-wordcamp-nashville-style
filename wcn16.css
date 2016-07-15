@@ -121,10 +121,11 @@ input[type="submit"]:focus {
 }
 
 .type-wcb_sponsor .post-thumbnail a {
-	text-decoration: none;
+	border: none;
+	display: inline-block;
+	margin-top: 2em;
 }
 
 .type-wcb_sponsor .post-thumbnail img {
 	display: inline-block;
-	margin-top: 2em;
 }
