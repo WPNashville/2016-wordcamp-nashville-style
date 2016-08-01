@@ -153,3 +153,71 @@ input[type="submit"]:focus {
     margin-top: 1em;
     font-size: 1.25em
 }
+
+/**
+ * Ticket Form
+ */
+#tix {
+    padding-top: 0 !important;
+}
+
+#tix h2 {
+    margin-top: 0;
+}
+
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form),
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) tr {
+    border: none;
+    display: block;
+}
+
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) thead {
+    display: none
+}
+
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) tr {
+    border-bottom: thin solid;
+    margin-bottom: .75em;
+    padding-bottom: .75em;
+    position: relative;
+}
+
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) td {
+    display:inline-block;
+    border: none;
+    vertical-align: top;
+    margin: 0;
+}
+
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) td.tix-column-description {
+    width: 60% !important;
+}
+
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) span.tix-ticket-excerpt {
+    font-size: .7em;
+    display: inline-block;
+    line-height: 1.5em;
+}
+
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) td.tix-column-remaining:after {
+    content: "Remaining";
+    margin-left: .5em;
+}
+
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) td.tix-column-price {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) td.tix-column-price,
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) td.tix-column-remaining {
+    width: 19%;
+    font-size: .8em;
+    text-align:right
+}
+
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) td.tix-column-quantity {
+    position: absolute;
+    right:0;
+    bottom:.75em;
+}
