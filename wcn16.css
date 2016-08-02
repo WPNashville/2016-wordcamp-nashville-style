@@ -175,11 +175,24 @@ input[type="submit"]:focus {
     display: none
 }
 
-.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) tr {
+.tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) tr:not(.tix-row-coupon) {
     border-bottom: thin solid;
     margin-bottom: .75em;
     padding-bottom: .75em;
     position: relative;
+}
+
+.tix_tickets_table tr.tix-row-coupon td {
+	width: 100%;
+}
+
+.tix_tickets_table #tix-coupon-container {
+    text-align: left;
+}
+
+.tix_tickets_table #tix-coupon-container > input[type="text"] {
+    width: 70%;
+    display: inline-block;
 }
 
 .tix_tickets_table:not(.tix-order-summary):not(.tix-attendee-form) td {
