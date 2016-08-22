@@ -163,40 +163,41 @@ input[type="submit"]:focus {
 	text-align: center;
 }
 
-#tix-attendees li img {
-	float: none;
-	width: auto;
-	height: auto;
-}
-
 #tix-attendees li a {
 	border: none;
 }
 
-#tix-attendees li img {
+#tix-attendees .tix-field {
+	margin-left: 0;
+}
+
+#tix-attendees li img.avatar {
+	float: none;
+	width: auto;
+	height: auto;
 	border: 4px solid;
 	border-color: transparent;
 	-webkit-transition: border-color 250ms;
 	transition: border-color 250ms;
 }
 
-#tix-attendees li:hover img { 
+#tix-attendees li:hover img.avatar { 
 	border-color: #D63750;
 }
 
-#tix-attendees li:nth-child(2n):hover img {
+#tix-attendees li:nth-child(2n):hover img.avatar {
 	border-color: #256E12;
 }
 
-#tix-attendees li:nth-child(3n):hover img {
+#tix-attendees li:nth-child(3n):hover img.avatar {
 	border-color: #298C83;
 }
 
-#tix-attendees li:nth-child(5n):hover img {
+#tix-attendees li:nth-child(5n):hover img.avatar {
 	border-color: #D1B01B;
 }
 
-#tix-attendees li:nth-child(7n):hover img {
+#tix-attendees li:nth-child(7n):hover img.avatar {
 	border-color: #262335;
 }
 
