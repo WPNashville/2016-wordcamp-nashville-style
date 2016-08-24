@@ -286,6 +286,18 @@ span.wcpt-session-speakers {
     content: "\f142";
 }
 
+.note-box p {
+    font-size: 12px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+.yellow-highlight {
+    background: rgba(209, 176, 27, 0.3);
+    padding: 0.5em;
+    font-weight: bold;
+}
+
 /**
  * Ticket Form
  */
