@@ -233,33 +233,33 @@ span.wcpt-session-speakers {
 }
 
 /** Lightning talks **/
-.wcpt-time-1000am td:nth-child(2),
-.wcpt-time-1000am td:nth-child(3),
-.wcpt-time-100pm td:last-child {
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1000am td:nth-child(2),
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1000am td:nth-child(3),
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:last-child {
     border-bottom-width: 0;
 }
 
-.wcpt-time-1000am td:last-child,
-.wcpt-time-1030am td:last-child,
-.wcpt-time-100pm td:nth-child(2),
-.wcpt-time-100pm td:nth-child(3),
-.wcpt-time-130pm td:nth-child(2),
-.wcpt-time-130pm td:nth-child(3) {
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1000am td:last-child,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1030am td:last-child,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:nth-child(2),
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:nth-child(3),
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-130pm td:nth-child(2),
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-130pm td:nth-child(3) {
     background: rgba(209, 176, 27, 0.22);
 }
 
-.wcpt-time-1000am td:last-child:after,
-.wcpt-time-1000am td:last-child:before,
-.wcpt-time-1030am td:last-child:after,
-.wcpt-time-1030am td:last-child:before,
-.wcpt-time-100pm td:nth-child(2):after,
-.wcpt-time-100pm td:nth-child(2):before,
-.wcpt-time-100pm td:nth-child(3):after,
-.wcpt-time-100pm td:nth-child(3):before,
-.wcpt-time-130pm td:nth-child(2):after,
-.wcpt-time-130pm td:nth-child(2):before,
-.wcpt-time-130pm td:nth-child(3):after,
-.wcpt-time-130pm td:nth-child(3):before {
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1000am td:last-child:after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1000am td:last-child:before,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1030am td:last-child:after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1030am td:last-child:before,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:nth-child(2):after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:nth-child(2):before,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:nth-child(3):after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:nth-child(3):before,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-130pm td:nth-child(2):after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-130pm td:nth-child(2):before,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-130pm td:nth-child(3):after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-130pm td:nth-child(3):before {
     font-size:25px;
     font-family: dashicons;
     position: absolute;
@@ -267,22 +267,22 @@ span.wcpt-session-speakers {
     right: 0;
     transform: scale(.5, 1.5) rotate(10deg);
 }
-.wcpt-time-1000am td:last-child:after,
-.wcpt-time-1030am td:last-child:after,
-.wcpt-time-100pm td:nth-child(2):after,
-.wcpt-time-100pm td:nth-child(3):after,
-.wcpt-time-130pm td:nth-child(2):after,
-.wcpt-time-130pm td:nth-child(3):after {
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1000am td:last-child:after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1030am td:last-child:after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:nth-child(2):after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:nth-child(3):after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-130pm td:nth-child(2):after,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-130pm td:nth-child(3):after {
     content: "\f140";
     bottom: -5px;
     right: 2px;
 }
-.wcpt-time-1000am td:last-child:before,
-.wcpt-time-1030am td:last-child:before,
-.wcpt-time-100pm td:nth-child(2):before,
-.wcpt-time-100pm td:nth-child(3):before,
-.wcpt-time-130pm td:nth-child(2):before,
-.wcpt-time-130pm td:nth-child(3):before {
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1000am td:last-child:before,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-1030am td:last-child:before,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:nth-child(2):before,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-100pm td:nth-child(3):before,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-130pm td:nth-child(2):before,
+.entry-content > h1:first-child + .wcpt-schedule .wcpt-time-130pm td:nth-child(3):before {
     content: "\f142";
 }
 
